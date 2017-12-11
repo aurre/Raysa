@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    
+</head>
+<h1>Register</h1>
+<form>
+     <label for="first">First Name:</label>
+     <input id="first" type="text" name="FirstName" placeholder="John" required>
+     <label for="last">Last Name:</label> 
+     <input id="last" type="text" name="LastName" placeholder="Smith" required><br>
+
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other <br>
+
+    E-mail:
+    <input type="email" name="email" required>
+    
+
+    Password:
+    <label for="userPassword"></label>
+    <input id="userPassword" type="password" name="psw" pattern=".{5,10}" required title="5 to 10 characters" ><br> Birthday:
+    <select>
+        <option value="month">Month</option>
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+    </select>
+    <select>
+        <option value="day">Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <select>
+        <option value="year">Year</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+    </select><br> I agree with the terms and conditions
+    <input type="checkbox" name="terms" value="terms"><br>
+    <input type="submit" value="Submit">
+
+
+
+</form>
+
+<body>
+
+</body>
+
+</html>
