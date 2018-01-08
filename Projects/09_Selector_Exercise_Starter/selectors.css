@@ -3,6 +3,11 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /* Give the <body> element a background of #bdc3c7*/
 
+.selector {
+    color: lightsalmon;
+    font-size: 50px;
+}
+
 body {
     background-color: #bdc3c7;
     font-family: Lobster;
